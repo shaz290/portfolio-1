@@ -18,17 +18,16 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            I am a full-stack developer with expertise in .NET and React. I build dynamic, scalable web applications, focusing on both backend and frontend technologies to create efficient and seamless user experiences
+                            Currently, I work at a healthcare company where I am engaged in an integration module, connecting various applications such as fax, telephony, and QuickBooks.
                         </p>
                         <p>
-                            I am passionate about learning new technologies and constantly improving my skills. I strive to create innovative solutions that deliver meaningful impact, ensuring continuous growth and excellence in every project I work on.
-                        </p>
-
-                        <p>
-                            Right now, I'm working in a company where I am involved in an integration module, integrating different applications like fax, telephony, and QuickBooks.
+                            Additionally, I am involved in developing the HCM (Human Capital Management) module, which we are building from scratch. In this project, I am responsible for creating APIs and managing databases to support our operations.
                         </p>
                         <p>
-                            Additionally, I am currently working on the HCM (Human Capital Management) module. We are building this project from scratch, and in this project, I am responsible for creating APIs and managing databases.
+                            I am a full-stack developer with expertise in .NET and React, dedicated to building dynamic and scalable web applications. My focus spans both backend and frontend technologies, ensuring efficient and seamless user experiences.
+                        </p>
+                        <p>
+                            I am passionate about learning new technologies and continuously improving my skills. I strive to create innovative solutions that deliver meaningful impact, fostering growth and excellence in every project I undertake.
                         </p>
                     </div>
                     <div className="about-skills">
