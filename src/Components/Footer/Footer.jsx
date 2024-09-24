@@ -23,9 +23,9 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className='footer-bottom-left'>© 2024 Shaz Ahmed.All rights reserved.</p>
                 <div className="footer-bottom-right">
-                    <p>Term of Services</p>
+                    <p>Terms of Service</p>
                     <p>Privacy Policy</p>
-                    <p>Connect with me!</p>
+                    <p>Connect with me! 😊</p>
                 </div>
             </div>
         </div>
