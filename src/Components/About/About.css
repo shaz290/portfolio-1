@@ -12,7 +12,7 @@
 }
 
 .about-title h1 {
-    padding: 0px 30px;
+    padding: 0 30px;
     font-size: 80px;
     font-weight: 600;
 }
@@ -26,13 +26,13 @@
 
 .about-section {
     display: flex;
-    gap: 80px
+    gap: 80px;
 }
 
 .about-right {
     display: flex;
     flex-direction: column;
-    gap: 80px
+    gap: 80px;
 }
 
 .about-para {
@@ -41,6 +41,8 @@
     gap: 20px;
     font-size: 24px;
     font-weight: 500;
+    line-height: 1.5;
+    /* Increased line height for better readability */
 }
 
 .about-skills {
@@ -59,7 +61,7 @@
 .about-skill p {
     min-width: 150px;
     font-size: 24px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .about-skill hr {
@@ -93,7 +95,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .about-achievement p {
@@ -111,64 +112,84 @@
     transition: 0.5s;
 }
 
-@media(max-width:768px) {
+@media(max-width: 768px) {
     .about {
-        gap: 80px;
-        margin: 50px 70px;
-        align-items: start;
+        gap: 50px;
+        /* Reduced gap for smaller screens */
+        margin: 30px 20px;
+        /* Adjusted margins */
+        align-items: flex-start;
+        /* Align items to the start */
     }
 
     .about-title h1 {
         font-size: 50px;
+        /* Adjusted title font size */
         padding: 0;
+        /* No padding for title on smaller screens */
     }
 
     .about-title img {
         width: 130px;
+        /* Adjusted image size */
         right: -20px;
     }
 
     .about-section {
         flex-direction: column;
+        /* Stack section vertically on small screens */
     }
 
     .about-left {
         display: none;
+        /* Hide profile image on small screens */
     }
 
     .about-para {
         font-size: 18px;
-        line-height: 32px;
+        /* Font size for smaller screens */
+        line-height: 1.6;
+        /* Increased line height for readability */
+        padding: 0 10px;
+        /* Added padding for better spacing */
+    }
+
+    .about-skills {
+        gap: 15px;
+        /* Reduced gap for skills */
     }
 
     .about-skill {
         gap: 20px;
+        /* Adjusted gap */
         align-items: center;
     }
 
     .about-skill p {
         font-size: 20px;
+        /* Adjusted skill text size */
     }
 
     .about-skill hr {
         height: 6px;
+        /* Adjusted skill bar height */
     }
 
     .about-achievement {
         justify-content: space-between;
-    }
-
-    .about-achievement {
+        /* Center achievements on smaller screens */
         gap: 10px;
     }
 
     .about-achievement h1 {
         font-size: 34px;
+        /* Adjusted achievement font size */
         font-weight: 700;
     }
 
     .about-achievement p {
         text-align: center;
         font-size: 16px;
+        /* Adjusted achievement text size */
     }
 }
