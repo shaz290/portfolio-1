@@ -23,6 +23,13 @@ const About = () => {
                         <p>
                             I am passionate about learning new technologies and constantly improving my skills. I strive to create innovative solutions that deliver meaningful impact, ensuring continuous growth and excellence in every project I work on.
                         </p>
+
+                        <p>
+                            Right now, I'm working in a company where I am involved in an integration module, integrating different applications like fax, telephony, and QuickBooks.
+                        </p>
+                        <p>
+                            Additionally, I am currently working on the HCM (Human Capital Management) module. We are building this project from scratch, and in this project, I am responsible for creating APIs and managing databases.
+                        </p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"> <p>HTML & CSS</p> <hr style={{ width: "66%" }} /></div>
